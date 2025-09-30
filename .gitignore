@@ -1,0 +1,82 @@
+# See https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# =====================
+# Build / Output
+# =====================
+dist/
+build/
+tmp/
+out-tsc/
+.next/
+out/
+coverage/
+
+# =====================
+# Dependencies
+# =====================
+node_modules/
+
+# =====================
+# Env files
+# =====================
+.env
+.env.local
+.env.*.local
+
+# =====================
+# Nx
+# =====================
+.nx/cache/
+.nx/workspace-data/
+
+# =====================
+# Prisma
+# =====================
+*.db
+*.sqlite
+*.db-journal
+prisma/dev.db
+prisma/migrations/.DS_Store
+
+# =====================
+# Logs
+# =====================
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+testem.log
+
+# =====================
+# IDE / Editor
+# =====================
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+.idea/
+.project
+.classpath
+.settings/
+*.sublime-workspace
+*.launch
+.c9/
+
+# =====================
+# Misc system files
+# =====================
+.DS_Store
+Thumbs.db
+.sass-cache/
+connect.lock
+libpeerconnection.log
+typings/
+
+# =====================
+# Vite
+# =====================
+vite.config.*.timestamp*
+vitest.config.*.timestamp*
